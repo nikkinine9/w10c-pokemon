@@ -1,0 +1,22 @@
+.choose-pokemon {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.choose-pokemon > div {
+  text-align: center;
+  cursor: pointer;
+}
+
+.choose-pokemon > div img {
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-pokemon {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*# sourceMappingURL=choose.css.map */

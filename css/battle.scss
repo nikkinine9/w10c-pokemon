@@ -1,0 +1,21 @@
+.battle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+    >div {
+        text-align: center;
+        img {
+            height: 200px;
+            position: relative;
+        }
+    }
+}
+
+.battlelog {
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
